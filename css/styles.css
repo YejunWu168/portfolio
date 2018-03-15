@@ -1,0 +1,167 @@
+
+body {
+       
+      color: white;
+
+}
+
+
+.logo {
+    max-width: 100px;
+    padding: 20px 0px 0px 30px;
+}
+
+/*-----main styles-------*/
+
+main {
+    background-color: #2980b9;
+    transition: all 800ms ease;
+    
+    /* solution for the screen flickering when scrolling on webkit browsers */
+    backface-visibility:visible; 
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translateZ(0);
+       -moz-backface-visibility: visible;
+    -moz-transform: translateZ(0);
+    -o-backface-visibility: visible;
+    -o-transform: translateZ(0);
+
+}
+
+
+
+.title, .subtitle {
+    color: white;
+}
+
+
+.intro {
+    font-size: 3em;
+    -webkit-animation-delay: 500ms;
+    -o-animation-delay: 500ms;
+    animation-delay: 500ms;
+}
+
+.intro-sub {
+    font-size: 2em;
+    -webkit-animation-delay: 1200ms;
+    -o-animation-delay: 1200ms;
+    animation-delay: 1200ms;
+}
+
+.fa-angle-down {
+    font-size: 4em;
+    padding-bottom: 10px;
+    -webkit-animation-delay: 1200ms;
+    -o-animation-delay: 1200ms;
+    animation-delay: 1200ms;
+}
+
+
+.hero {
+    background-color: transparent;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* button styles */
+
+
+.button {
+     color: white;
+     background-color: transparent;
+     margin: 24px 0px 24px 0px;
+     transition: all 0.3s ease 0s;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button:hover {
+    
+    background-color: white;
+    
+}
+
+.rk:hover {
+    color: #2980b9;
+}
+
+.fvo:hover {
+    color: #e74c3c;
+}
+
+.merus:hover {
+    color: #9b59b6;
+}
+
+
+
+.dft {
+    color: #1e1f22;
+}
+
+.dft > .button {
+    color: #1e1f22;
+    border-color: #1e1f22; 
+}
+
+.dft > .button:hover {
+    background-color: #1e1f22; 
+    color: white;
+}
+
+/* footer styles */
+
+.thx {
+    text-align: center;
+}
+
+
+
+#footer {
+/*    background-color: #1e1f22;*/
+    height: 150px;
+    text-align: center;
+        backface-visibility:visible; 
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translateZ(0);
+       -moz-backface-visibility: visible;
+    -moz-transform: translateZ(0);
+    -o-backface-visibility: visible;
+    -o-transform: translateZ(0);
+}
+
+.red {
+    transition:all 0.5s ease;
+        color: red;
+}
+
+
+/* media styles */
+
+@media screen and (min-width: 769px) {
+    .img-right {
+        position: absolute;
+        width: 564px;
+        right: 0px;
+    }
+    
+    .text-left {
+        position: relative;
+        right: 70px;
+    }
+    
+    .title {
+    padding-top: 40px;
+}
+    
+    .intro {
+        padding-top: 0px;
+    }
+
+
+}
+
+
